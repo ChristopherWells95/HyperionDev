@@ -1,19 +1,19 @@
-Purpose of my psuedocode would be to work out how much money someone has, will and can spend.
+#Purpose of my psuedocode would be to work out how much money someone has, will and can spend.
 
-1. Have you spent money twice or more in the past 24-hours? = yes
+Have you spent money twice or more in the past 24-hours? = yes
       return, "Try to save your money"
            if answer = no,
-               return, "You must be very wise." 
+               print, "You must be very wise." 
 
-2. Will you be planning to spend money again in the next 24-hours? = yes
+Will you be planning to spend money again in the next 24-hours? = yes
       return, "Make sure it is completely necessary to do so"
           if answer = no,
-              return, "Seems like you are saving for a rainy day"
+              print, "Seems like you are saving for a rainy day"
 
-3. How much money can you spend without feeling bad? > 2000
+How much money can you spend without feeling bad? > 2000
       return, "WOW! you must be a big spender"
           if answer < 2000
-              return, "You know the value of money"
+              print, "You know the value of money"
 
 
 // not sure if this was what the task requested, looking forward to the feedback. //
