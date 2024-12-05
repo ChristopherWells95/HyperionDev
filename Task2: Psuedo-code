@@ -1,21 +1,21 @@
 The aim of my pseudo-code is to improve a user's driving experience in a car.
 
-1. Which model car did you drive? = HR-V or CR-V.
-    return = "Great choice, please allow a few more questions to be asked to improve your drive."
+Which model car did you drive? = HR-V or CR-V.
+    print = "Great choice, please allow a few more questions to be asked to improve your drive."
 
-2. How far did you travel this month? > 500 (km)
-    return with a dropbox, "Do you normally drive this distance or do you drive more than 500km per month?" 
+How far did you travel this month? > 500 (km)
+    print with a dropbox, "Do you normally drive this distance or do you drive more than 500km per month?" 
        if user selects the button = "normally"
-          return = "What about the car makes it convenient to travel this distance?"
-            user will then be allowed to type in their own answer.
+          print = "What about the car makes it convenient to travel this distance?"
+            user will then be allowed to input their own answer.
 
        if user selects the button = "more than 500km"
-          return = "What about the car makes it convenient to travel this distance?"
-            user will then be allowed to type in their own answer.
+          print = "What about the car makes it convenient to travel this distance?"
+            user will then be allowed to input their own answer.
 
-3. Would you suggest Honda to a friend or family member? = yes
-         return = "Great! we are happy to hear this!"
+Would you suggest Honda to a friend or family member? = yes
+         print = "Great! we are happy to hear this!"
       if user selects the button = no
-         return = "We are sorry to hear this, what can we do to improve your drive and change your mind?"
-         user will then be allowed to type in their own answer.
+         print = "We are sorry to hear this, what can we do to improve your drive and change your mind?"
+         user will then be allowed to input their own answer.
 
