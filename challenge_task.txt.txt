@@ -1,0 +1,13 @@
+Scenario: An algorithm that asks the user to enter four numbers, sorts those
+numbers from smallest to largest and then prints the sorted
+numbers.
+
+Pseudocode:
+
+prompt user to input four numbers,
+
+	set numbers to arrange from smallest to largest,
+
+	print sorted numbers.
+
+____________________________________________________________________________________________________

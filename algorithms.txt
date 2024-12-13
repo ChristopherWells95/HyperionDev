@@ -1,0 +1,31 @@
+Scenario 1: An algorithm that requests a user to input their name and then store their name in a variable called first_name. 
+Subsequently, the algorithm should print out first_name along with the phrase "Hello World". 
+
+Pseudocode:
+
+request user to input first name,
+	
+	save user's input in a variable named "first_name"
+	
+print " 'Hello World ' + first_name + ' .'"
+
+_____________________________________________________________________________________________________________________________
+
+Scenario 2: An algorithm that asks a user to enter their age and then stores their age in a variable called age. 
+Subsequently, the algorithm should print out "You're old enough" if the user's age is over or equal to 18, 
+or print out "Almost there" if their age is equal to or over 16, but less than 18. 
+Finally, the algorithm should print out "You're just too young" if the user is younger than (but not equal to) 16.
+
+Pseudocode: 
+
+Request user to input their age
+	if their age is equal or over the value 18
+	print "You're old enough."
+
+		else if their age is equal to or over the value 16 but not equal to 18
+		print "Almost there."
+
+		if else their age is below and not equal to 16
+		print "You are just too young." 
+
+____________________________________________________________________________________________________________________________

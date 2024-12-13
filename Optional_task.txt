@@ -1,0 +1,16 @@
+The Fibonacci sequence is a sequence of numbers beginning with 0 and 1, in which every number after the first two can be found by adding the two numbers before it.
+For example, the first 10 numbers in the Fibonacci sequence are as follows:
+
+0,1,1,2,3,5,8,13,21,34,...
+
+Pseudocode:
+
+request user to input a number in the Fibonacci sequence to give an output of value to the number.
+
+create a variable called 'n' that will store the input from user.
+
+the value output should then be the sum of the two previous values in the sequence that will give the value of the number that the user input.
+
+FN = F(N-1) + F(N-2)
+
+________________________________________________________________________________________________________________________________________________________________________
