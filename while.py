@@ -1,13 +1,36 @@
-total = 0 # Created as a variable that will be affected by change in the loop.
+# total will change according to the total amount that was entered.
 
-number = int(input("Please enter any nummber (-1 to stop): "))
+total = 0 
 
-while number != -1: # Loop continues if "number" is not -1.
-    total += number # Total will change according to the answers the user input.
+# count will change according to the total times amounts were entered.
+
+count = 0
+
+# value that will break the loop.
+
+exit_value = -1
+
+# Input that is needed from user.
+
+number = float(input("Please enter any number: "))
+
+# Loop continues if "number" is not -1.
+
+while number != -1: 
+
+    # Total will change according to the answers the user input.
+
+    total += number 
+    count += 1
     
-    number = int(input("Please enter any nummber (-1 to stop): "))  # Question is repeated to complete loop effect.
+    # Question is repeated to complete loop effect.
+    number = int(input("Please enter any number: "))
+    print("To see your result enter '-1'.")  
 
-    if number == -1: # If condition, if true, to end the loop.
-     print(f"{total}")
-     break
+    # If condition activates when exit_value is entered and ends the loop.
 
+    if number == exit_value:
+       average_input = total/count
+
+       print(f"The average of the {count} value(s) you entered is {average_input}.")
+       break
